@@ -1,0 +1,47 @@
+body {
+    background-color: gray;
+}
+    
+
+
+.shoes {
+    height: 850px;
+    width: 695px;
+    margin: 15px;
+    padding: 30px;
+    border: 55px solid ;
+    border-image: url(border-image\ .png)stretch;
+    border-image-slice:23.015;
+    border-image-repeat: repeat;
+
+
+}
+p {
+    margin: 15px;
+    max-height: 360px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: left;
+    font-weight: 600;
+}
+  span {
+      font-size: 25px;
+      margin: 10px;
+  font-weight: bolder;
+  transition: transform 300ms;
+  
+    }
+  span:hover {
+transform: scale(1);
+font-size: 27px;
+  }
+
+
+    img{
+transition: transform 200ms;
+    }    
+img:hover{
+    transform: scale(1);
+width: 280px;
+height: 185;
+}
